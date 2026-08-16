@@ -10,7 +10,7 @@ function App() {
   return (
     <div
       style={{
-        backgroundColor: "#1e8ab9",
+        backgroundColor: "#bcc2cc",
         minHeight: "100vh",
         color: "white",
         textAlign: "center",
@@ -35,13 +35,12 @@ function App() {
       {showContent && (
         <div
           style={{
-            border: "1px solid #aaa",
+            border: "1px solid #322727",
             padding: "15px",
             margin: "20px auto",
             width: "300px",
             fontSize: "18px",
-          }}
-        >
+          }}>
           This content is displayed conditionally.
         </div>
       )}
